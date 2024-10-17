@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.productoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.productoImagen {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.productoTitulo {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.productoDetalle {
+    color: gray;
+}
+
+.botonCarrito {
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(65, 187, 40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.listaFiltro {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.itemsFiltro {
+    cursor: pointer;
+}
+
+.itemsFiltro:hover {
+    font-weight: bold;
+}
